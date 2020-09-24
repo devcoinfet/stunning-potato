@@ -2,7 +2,7 @@ import requests
 import os
 from urllib3.exceptions import InsecureRequestWarning
 import string 
-
+import sys
 
 # Suppress only the single warning from urllib3 needed.
 requests.packages.urllib3.disable_warnings(category=InsecureRequestWarning)
